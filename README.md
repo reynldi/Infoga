@@ -12,11 +12,8 @@ cd infoga
 pip install -r req
 python infoga.py
 ```
-## Usage
+## Example
 `python infoga.py --target fbi.gov --source all`
+`python infoga.py -t fbi.gov -s all`
 
-![screen2](https://i.imgur.com/GQdhkvy.png)
-
-`python infoga.py --info rthosfe@nsa.gov`
-
-![screen3](https://i.imgur.com/1fjR90E.png)
+![screen2](https://raw.githubusercontent.com/m4ll0k/Infoga/master/screen2.png)
