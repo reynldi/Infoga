@@ -14,6 +14,9 @@ python infoga.py
 ```
 ## Example
 `python infoga.py --target fbi.gov --source all`
+
+or
+
 `python infoga.py -t fbi.gov -s all`
 
 ![screen2](https://raw.githubusercontent.com/m4ll0k/Infoga/master/screen2.png)
