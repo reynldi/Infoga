@@ -18,7 +18,7 @@
 import os 
 import sys 
 import getopt
-
+import subprocess
 from recon import *
 from lib.output import *
 from lib.request import *
@@ -222,6 +222,9 @@ class infoga(object):
 				usage(True)
 
 if __name__ == "__main__":
+	p = Process(target=main)
+	p.start()
+	p.join()
 	try:
 		infoga().main()
 	except KeyboardInterrupt,e:
